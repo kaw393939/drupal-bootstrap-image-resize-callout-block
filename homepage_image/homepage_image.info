@@ -1,0 +1,4 @@
+name = home page image block
+description = This is the skeleton module for home page image block module.
+version = .01
+core = 7.x

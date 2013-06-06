@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ *
+ */
+function homepage_image_block_info() {
+  $blocks = array();
+  $blocks['homepageimage'] = array(
+    'info' => t('Home Page Image Block'), //Module name
+    'cache' => DRUPAL_CACHE_PER_ROLE,
+  );
+  return $blocks;
+}
